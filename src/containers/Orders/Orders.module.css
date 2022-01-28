@@ -1,0 +1,16 @@
+
+.Orders {
+    background-color: #21252b;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    min-height: 1200px;
+}
+
+@media only screen and (max-width: 2000px) {
+    .Orders {
+      grid-template-columns: 50% 50%;
+    }
+  }

@@ -1,0 +1,87 @@
+.root {
+    min-height: 1000px;
+    background-color: #006170;
+}
+.authDiv {
+    margin: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.Auth {
+    /* margin: 20px auto; */
+    width: 80%;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(204, 204, 204);
+    /* border: 1px solid #eee;  */
+    padding: 10px;
+    box-sizing: border-box;
+    height: 70%;
+}
+
+.imageDiv {
+    margin: 40px;
+    width: 50%;
+    height: auto;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+  
+.FirstHeader {
+text-align: center;
+}
+
+.SecondHeader {
+text-align: center;
+}
+
+.GoToRegisterButtonDiv {
+display:flex;
+justify-content: center;
+}
+
+.GoToRegisterButton {
+font-weight: bolder;
+width: 100%;
+height: auto;
+}
+
+.LoginButtonDiv {
+display: flex;
+justify-content: center;
+}
+
+.LoginButton {
+text-align: center;
+font-weight: bolder;
+font-size: 30px;
+width: 100px;
+height: auto;
+}   
+
+.DivBelowNav {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .DivBelowNav {
+        display: block;
+    }
+
+    .imageDiv {
+        width: 100%;
+    }
+
+    .authDiv {
+        width: 100%;
+        min-height: 500px;
+    }
+      
+  }
+  

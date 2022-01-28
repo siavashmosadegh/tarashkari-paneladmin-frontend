@@ -1,0 +1,24 @@
+.PanelOrder {
+    background-color: beige;
+    width: 90%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    height: 600px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.clockRow {
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+    align-self: center;
+}
+
+.summary {
+    width: 50%;
+    direction: rtl;
+}

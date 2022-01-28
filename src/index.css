@@ -1,8 +1,17 @@
+@font-face {
+	font-family: iranyekanFaNum;
+	font-style: normal;
+	font-weight: bold;
+  src: url('fonts/iranyekanFaNum/woff/iranyekanwebregularfanum.woff') format("woff");
+	/* src: url('/fonts/iranyekanFaNum/eot/iranyekanwebboldfanum.eot');
+	src: url('/fonts/iranyekanFaNum/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),  
+		 url('/fonts/iranyekanFaNum/woff/iranyekanwebboldfanum.woff') format('woff'),
+		 url('/fonts/iranyekanFaNum/ttf/iranyekanwebboldfanum.ttf') format('truetype'); */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: iranyekanFaNum !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
